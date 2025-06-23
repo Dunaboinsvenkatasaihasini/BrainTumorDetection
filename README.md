@@ -7,7 +7,9 @@ Project Overview
 Brain tumors are life-threatening and require early, accurate diagnosis for effective treatment. This project implements an end-to-end AI-based diagnostic system that:
 
 🔹 Segments tumor regions from MRI scans using 3D-UNet
+
 🔹 Classifies tumors into types using CNN and VGG16
+
 🔹 Provides an interactive Django web interface for image upload, prediction, and visualization
 
 🧠 Tumor Types Covered
@@ -60,20 +62,29 @@ brain-tumor-segmentation/
 
 🔹 3D-UNet – Tumor Segmentation
 Handles volumetric MRI data
+
 Encoder-decoder with skip connections
+
 Improved spatial accuracy for tumor boundaries
 
 🔹 CNN & VGG16 – Tumor Classification
+
 CNN for lightweight feature extraction
+
 VGG16 (pre-trained) for higher classification accuracy
+
 Output: glioma, meningioma, pituitary, or no tumor
 
 🧩 Modules
 
 Upload MRI Dataset
+
 Preprocess and Split Data
+
 Train 3D-UNet for segmentation
+
 Train CNN/VGG16 for classification
+
 Predict Tumor & Show Results
 
 
